@@ -15,17 +15,21 @@
     <p>Test your color recognition skills! Guess the right color and earn points.</p>
     <button id="startButton">Start Game 🚀</button>
   </div>
+
   <div id="gameScreen">
-    <h2 data-testid="gameInstructions">Guess the right color!</h2>
-    <div id="colorDisplay" data-testid="colorDisplay"></div>
-    <div id="colorOptions"></div>
+    <h2 data-testid="gameInstructions">
+      Guess the right color!
+    </h2>
+    <div id="colorDisplay" data-testid="colorBox"></div>
+    <div id="colorOptions" data-testid="colorOption"></div>
     <div id="colorBox">
       <p id="gameStatus" data-testid="gameStatus"></p>
     </div>
-    <p id="scoreText">Score: <span id="score">0</span></p>
+    <p id="scoreText" data-testid="score">
+      Score: <span id="score">0</span>
+    </p>
     <button id="newGameButtton" data-testid="newGameButtton">New Game</button>
   </div>
-
 
   <script src="index.js"></script>
 </body>
