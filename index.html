@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Game</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <img src="/color-img_1_optimized.png" alt="">
+  <div id="welcomeScreen">
+    <h1>🎨 Welcome to Color Guess!</h1>
+    <p>Test your color recognition skills! Guess the right color and earn points.</p>
+    <button id="startButton">Start Game 🚀</button>
+  </div>
+  <div id="gameScreen">
+    <h2 data-testid="gameInstructions">Guess the right color!</h2>
+    <div id="colorDisplay" data-testid="colorDisplay"></div>
+    <div id="colorOptions"></div>
+    <div id="colorBox">
+      <p id="gameStatus" data-testid="gameStatus"></p>
+    </div>
+    <p id="scoreText">Score: <span id="score">0</span></p>
+    <button id="newGameButtton" data-testid="newGameButtton">New Game</button>
+  </div>
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
